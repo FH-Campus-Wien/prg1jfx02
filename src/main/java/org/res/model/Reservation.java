@@ -9,6 +9,10 @@ public class Reservation {
     private int performanceId;
     private int numberOfSeats;
 
+    public String toString() {
+        return "Reservation id="+this.getId();
+    }
+    
     public int getId() {
         return id;
     }
