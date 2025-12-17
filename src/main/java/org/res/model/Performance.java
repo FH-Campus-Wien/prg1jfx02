@@ -26,7 +26,7 @@ public class Performance {
     }
 
     public String toString() {
-        return String.format("%s - %s (%d Kap.)", DATETIME_FORMAT.format(date), title, capacity);
+        return String.format("%s - %s (%d offene Plätze)", DATETIME_FORMAT.format(date), title, capacity);
     }
 
     public int getId() {

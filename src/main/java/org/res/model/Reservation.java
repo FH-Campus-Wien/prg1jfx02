@@ -10,7 +10,7 @@ public class Reservation {
     private int numberOfSeats;
 
     public String toString() {
-        return "Reservation id="+this.getId();
+        return "Reservierung für "+this.getFirstName();
     }
     
     public int getId() {
