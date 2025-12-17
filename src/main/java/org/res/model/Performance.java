@@ -26,7 +26,7 @@ public class Performance {
     }
 
     public String toString() {
-        return String.format("%s - %s (%d Offen)", DATETIME_FORMAT.format(date), title, capacity);
+        return String.format("%s - %s (%d Frei)", DATETIME_FORMAT.format(date), title, capacity);
     }
 
     public int getId() {
