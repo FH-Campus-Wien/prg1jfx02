@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+         <GridPane alignment="TOP_CENTER" prefWidth="450.0" styleClass="res-input-panel">
+                  <Label GridPane.rowIndex="0" GridPane.columnIndex="0" styleClass="res-label" text="Vorname" prefWidth="200"  />
+                  <TextField fx:id="firstNameTxt" GridPane.rowIndex="0" GridPane.columnIndex="1" styleClass="res-value"  prefWidth="250" />
+                  <Label GridPane.rowIndex="1" GridPane.columnIndex="0" styleClass="res-label" text="Familienname" prefWidth="200" />
+                  <TextField fx:id="lastNameTxt" GridPane.rowIndex="1" GridPane.columnIndex="1" styleClass="res-value" prefWidth="250" />
+                  <Label GridPane.rowIndex="2" GridPane.columnIndex="0" styleClass="res-label" text="e-Mail" prefWidth="200" />
+                  <TextField fx:id="emailTxt" GridPane.rowIndex="2" GridPane.columnIndex="1" styleClass="res-value" prefWidth="250" />
+                  <Label GridPane.rowIndex="3" GridPane.columnIndex="0" styleClass="res-label" text="Anzahl Plätze" prefWidth="200" />
+                  <HBox GridPane.rowIndex="3" GridPane.columnIndex="1" >
+                    <TextField fx:id="seatsTxt" styleClass="res-value" prefWidth="50" />
+                    <Region prefWidth="200"/>
+                  </HBox>
+                  <Label fx:id="userMessageTxt" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+                  <HBox GridPane.rowIndex="5" GridPane.columnIndex="1" >
+                      <Button fx:id="okButton" styleClass="res-button" text="Fertig" prefWidth="110"/>
+                      <Region prefWidth="40"/>
+                      <Button fx:id="cancelButton" styleClass="res-button" text="Abbr" prefWidth="100"/>
+                  </HBox>
+         </GridPane>
+</AnchorPane>

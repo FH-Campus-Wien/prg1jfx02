@@ -1,0 +1,29 @@
+.list-view,
+.list-view:focused {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+}
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 0.25em; /* 3 */
+    -fx-text-fill: black;
+    -fx-font-size: 1.5em;
+    -fx-opacity: 1;
+}
+.list-cell:filled:hover {
+    -fx-background-color: lightgray;
+    -fx-font-weight: bold;
+}
+
+.res-input-panel {
+    -fx-vgap: 10;
+    -fx-padding: 10;
+}
+
+.res-button,
+.res-label,
+.res-value {
+    -fx-font-size: 1.5em;
+}
